@@ -1,0 +1,58 @@
+{
+  "name": "jwt_vuejs_express",
+  "version": "0.0.0",
+  "private": true,
+  "engines": {
+    "node": "18.12.1",
+    "npm": "8.19.2"
+  },
+  "description": "Jwt best practices ",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "serverdev": "set NODE_ENV=dev&&nodemon index.js",
+    "build": "vite build",
+    "preview": "vite preview",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@tailwindcss/forms": "^0.5.3",
+    "@tailwindcss/line-clamp": "^0.4.2",
+    "@vueup/vue-quill": "^1.0.1",
+    "axios": "^1.2.2",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.1",
+    "colors": "^1.4.0",
+    "cors": "^2.8.5",
+    "daisyui": "^2.46.1",
+    "dotenv": "^16.0.3",
+    "dotenv-flow": "^3.2.0",
+    "express": "^4.18.2",
+    "express-rate-limit": "^6.7.0",
+    "js-cookie": "^3.0.1",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^6.8.2",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.20",
+    "openai": "^3.1.0",
+    "path": "^0.12.7",
+    "pinia": "^2.0.28",
+    "raw-body": "^2.5.1",
+    "stripe": "^11.6.0",
+    "uuid": "^9.0.0",
+    "vue": "^3.2.45",
+    "vue-cookies": "^1.8.2",
+    "vue-router": "^4.1.6"
+  },
+  "keywords": [],
+  "author": "PDP",
+  "license": "MIT",
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.0.0",
+    "autoprefixer": "^10.4.13",
+    "nodemon": "^2.0.20",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.2.4",
+    "vite": "^4.0.0"
+  }
+}
